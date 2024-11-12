@@ -1,3 +1,11 @@
 {
-  "extends": "next/core-web-vitals"
+    "extends": ["next/core-web-vitals", "plugin:tailwindcss/recommended"]
+    // "overrides": [
+    //     {
+    //         "files": ["**/*.{js,mjs,cjs,jsx,prettierrc}"],
+    //         "rules": {
+    //             // You can specify rules here that apply only to these file types
+    //         }
+    //     }
+    // ]
 }
